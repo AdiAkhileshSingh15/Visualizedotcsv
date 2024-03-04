@@ -1,0 +1,21 @@
+{
+  "name": "visualizedotcsv",
+  "version": "1.0.0",
+  "description": "app to upload csv and render it to visual representations",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Adi Akhilesh Singh",
+  "license": "ISC",
+  "dependencies": {
+    "@supabase/supabase-js": "^2.39.7",
+    "cors": "^2.8.5",
+    "csv-parser": "^3.0.0",
+    "dotenv": "^16.4.5",
+    "express": "^4.18.2",
+    "fs": "^0.0.1-security",
+    "mongoose": "^8.2.0",
+    "multer": "^1.4.5-lts.1"
+  }
+}
